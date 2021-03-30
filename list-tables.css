@@ -1,0 +1,139 @@
+.unordered {
+    background: #690999;
+    padding: 20px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 110%;
+}
+    
+.unordered li {
+    background: springgreen ;
+    margin: 5px;
+}
+
+.nested-ul li {
+    background: orangered;
+    margin: 5px;
+}
+
+.ordered {
+    background: #FD8A00;
+    padding: 20px;
+    width: 20%;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.3em;
+    }
+    
+.ordered li {
+    background: #FFCF95;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.custom-box-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    }
+    
+.custom-box-list li {
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+}
+    
+.custom-box-list li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: rgb(69, 420, 0);
+    color: blue;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+/*__________________________*/
+
+.list-image {
+
+    list-style: none;
+    
+    padding-left: 0;
+    
+}
+    
+.list-image li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.list-image li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url('babak99.jpg');
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+.popular-sites {
+
+    list-style: none;
+    
+    padding-left: 0;
+    
+}
+    
+.popular-sites li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.popular-sites li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url('iran2.png');
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}

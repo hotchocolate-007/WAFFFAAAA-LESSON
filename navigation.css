@@ -1,0 +1,158 @@
+/*______________*/
+.navbar {
+	background-color: #333;
+	border: 2px solid #111;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 395px
+}
+
+.navbar li {
+	float: left
+}
+
+.navbar li a {
+	color: #fff;
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	width: auto
+}
+
+.navbar li a:hover {
+	background: repeating-linear-gradient(90deg, yellow 0px, blue 40px, green 40px, red 80px);
+	background-color: #ff7f50;
+	text-decoration: underline
+}
+
+/*______________*/
+
+li:last-child {
+	border-bottom: none
+}
+
+@media screen and (min-width: 420px) {
+	body {
+		background: purple;
+		margin: 2px
+	}
+}
+
+@media screen and (max-width: 600px) {
+	ul.topnav li.right,
+	ul.topnav li {
+		float: none
+	}
+}
+
+@media screen and (min-width: 794px) {
+	body {
+		background: #40e0d0;
+		margin: 8px
+	}
+}
+
+@media screen and (min-width: 1020px) {
+	body {
+		background: silver;
+		font-size: 25px;
+		margin: 26px;
+		max-width: 1020px;
+		text-align: center;
+		text-decoration: none
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	body {
+		background: silver;
+		font-size: 24px;
+		margin: 22px;
+		max-width: 1366px;
+		text-align: center;
+		text-decoration: none
+	}
+}
+
+@media screen and (min-width: 1536px) {
+	body {
+		background: silver;
+		font-size: 25px;
+		margin: 26px;
+		max-width: 1536px;
+		text-align: center;
+		text-decoration: none
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	body {
+		background: silver;
+		font-size: 30px;
+		margin: 28px;
+		max-width: 120px;
+		text-align: center;
+		text-decoration: none
+	}
+}
+
+h1 {
+	background: repeating-linear-gradient(90deg, purple 0px, green 300px);
+	text-decoration: underline;
+	width: auto
+}
+
+body {
+	margin: 0
+}
+
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333
+}
+
+ul.topnav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none
+}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: #111
+}
+
+ul.topnav li a.active {
+	background-color: #4CAF50
+}
+
+ul.topnav li.right {
+	float: right
+}
+
+.one {
+	background-color: #ff7f50
+}
+
+.two {
+	background-color: #485
+}
+
+.three {
+	background-color: #936
+}
+
+.four {
+	background-color: #592
+}
+
+.right {
+	text-align: center
+}
